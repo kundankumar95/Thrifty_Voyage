@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/images/home_page_banner1.e6749c3d9698d1ac7608.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#logo{
+    height: 100px;
+    width:100px;
+    margin-left: 80px;
+    display: flex;
+    margin-top: -30px;
+}
+.navbar #login{
+ 
+    margin-left: 500px;
+    height: 20px;    
+    height: 30px;
+    width: 80px;
+    background-color: rgb(27, 36, 85);
+    color: white;
+    font-size: 15px;
+
+    border: none;
+    cursor: pointer;
+}
+.navbar #register{
+    margin-left: 30px;
+    height: 20px;    
+    height: 30px;
+    width: 120px;    
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.33);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.navbar #agent{
+    margin-left: 30px;
+    height: 20px;    
+    height: 30px;
+    width: 120px;    
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.33);
+    border: none;
+    cursor: pointer;
+}
+.navbar #contact{
+    margin-left: 30px;
+    height: 20px;    
+    height: 30px;
+    width: 120px;    
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.33);
+    border: none;
+    cursor: pointer;
+}
+#form{
+    height: 450px;
+    width: 680px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 150px;
+    margin-top: 80px;
+}
+#pnr{
+    width:330px ;
+    height: 30px;
+    background-color: rgb(27, 36, 85);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#chart{
+    width:330px ;
+    height: 30px;
+    background-color: rgb(27, 36, 85);
+    margin-left: 350px;
+    margin-top: -30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#azadi{
+    height: 120px;
+    display: flex;
+
+}
+#globe{
+    display: flex;
+    height: 80px;
+    margin-top: -100px;
+    margin-left: 520px;
+}
+#book{
+    font-size: 30px;
+    color:rgb(27, 36, 85);
+    margin-top: -60px;
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#from{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    width: 380px;
+}
+#to{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    width: 380px;
+}
+#date{
+    margin-left: 20px;
+    height: 35px;
+    width: 220px;
+}
+#class{
+    margin-left: 20px;
+    height: 35px;
+    width: 220px;
+}
+#sitting{
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 35px;
+    width: 388px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+    

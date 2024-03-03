@@ -1,0 +1,1347 @@
+[
+    {
+        "name": "Reliance Hotel",
+        "Location": {
+            "City": "Bokaro Steel City",
+            "State": "Jharkhand",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "2000",
+                "availability": "25"
+            },
+            {
+                "type": "Deluxe",
+                "price": "1500",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "The Flora Grand",
+        "Location": {
+            "City": "Goa",
+            "State": "Goa",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "3000",
+                "availability": "20"
+            },
+            {
+                "type": "Delux",
+                "price": "5000",
+                "availability": "15"
+            }
+        ]
+    },
+    {
+        "name": "ITC Royal Bengal",
+        "Location": {
+            "City": "Kolkata",
+            "State": "West Bengal",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "9000",
+                "availability": "25"
+            },
+            {
+                "type": "Deluxe",
+                "price": "7500",
+                "availability": "25"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Angina",
+        "Location": {
+            "City": "Kolkata",
+            "State": "West Bengal",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "3200",
+                "availability": "67"
+            },
+            {
+                "type": "Deluxe",
+                "price": "2800",
+                "availability": "45"
+            }
+        ]
+    },
+    {
+        "name": "Southern Plaza Hotel",
+        "Location": {
+            "City": "Kolkata",
+            "State": "West Bengal",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "7500",
+                "availability": "35"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5000",
+                "availability": "45"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Executive Tower",
+        "Location": {
+            "City": "Kolkata",
+            "State": "West Bengal",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4500",
+                "availability": "25"
+            },
+            {
+                "type": "Deluxe",
+                "price": "3500",
+                "availability": "25"
+            }
+        ]
+    },
+    {
+        "name": "The lalit Ashok Bengluru",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5975",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "4799",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "Ibis Bengluru Hebbal",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4704",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "4299",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "Vividus Hotel",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "2576",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "2165",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "Grand Kalinga Hotel",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "2149",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "1599",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "otel Royal Orchid",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4791",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "4186",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "Zion- A Luxurious Hotel",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "2761",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "2299",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "Radison Blue Hotel",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "6804",
+                "availability": "67"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5799",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "The Elanza Hotel",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "3513",
+                "availability": "54"
+            },
+            {
+                "type": "Deluxe",
+                "price": "2756",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "Oasis Executive Shuite",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "1813",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "999",
+                "availability": "34"
+            }
+        ]
+    },
+    {
+        "name": "Coaraltree By Goldfinch Hotel",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "1995",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "1245",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "The Capitol Hotel",
+        "Location": {
+            "City": "Bengluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "3745",
+                "availability": "55"
+            },
+            {
+                "type": "Deluxe",
+                "price": "3549",
+                "availability": "49"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Spring and Spa",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4321",
+                "availability": "40"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5432",
+                "availability": "28"
+            }
+        ]
+    },
+    {
+        "name": "Royal Orchid Centre",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4899",
+                "availability": "36"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5987",
+                "availability": "24"
+            }
+        ]
+    },
+    {
+        "name": "AMC Comports",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4678",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5890",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "The Park Bengaluru",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5235",
+                "availability": "48"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6320",
+                "availability": "37"
+            }
+        ]
+    },
+    {
+        "name": "Langford Key by TGI",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4789",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5899",
+                "availability": "33"
+            }
+        ]
+    },
+    {
+        "name": "Hatt Centric MG Road",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5120",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6325",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "Sahara Inn",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4560",
+                "availability": "38"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5675",
+                "availability": "27"
+            }
+        ]
+    },
+    {
+        "name": "Regenta Place",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4985",
+                "availability": "40"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6090",
+                "availability": "32"
+            }
+        ]
+    },
+    {
+        "name": "Royal Ace Boutique",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5360",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6475",
+                "availability": "33"
+            }
+        ]
+    },
+    {
+        "name": "Springs Hotel and Spa",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4750",
+                "availability": "40"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5890",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "The Rialto Hotel",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5025",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6150",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Metrovista",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4850",
+                "availability": "38"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5985",
+                "availability": "27"
+            }
+        ]
+    },
+    {
+        "name": "Four Points by Sheraton Bengaluru",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5875",
+                "availability": "48"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6999",
+                "availability": "35"
+            }
+        ]
+    },
+    {
+        "name": "Crimson Hotel",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5420",
+                "availability": "44"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6575",
+                "availability": "29"
+            }
+        ]
+    },
+    {
+        "name": "Starlit Suites",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5125",
+                "availability": "40"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6299",
+                "availability": "32"
+            }
+        ]
+    },
+    {
+        "name": "Tranquil Serviced Apartment",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4855",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5980",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "The Pride Hotel Bangalore",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5250",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6375",
+                "availability": "32"
+            }
+        ]
+    },
+    {
+        "name": "iStay Hotels Rajajinagar",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4650",
+                "availability": "40"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5780",
+                "availability": "28"
+            }
+        ]
+    },
+    {
+        "name": "The Lalit Ashok Bangalore",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5550",
+                "availability": "48"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6699",
+                "availability": "36"
+            }
+        ]
+    },
+    {
+        "name": "The Signature Inn",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4750",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5899",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "Svenska Design Hotel",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5200",
+                "availability": "46"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6350",
+                "availability": "35"
+            }
+        ]
+    },{
+        "name": "ITC Gardenia, a Luxury Collection Hotel",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "8000",
+                "availability": "50"
+            },
+            {
+                "type": "Deluxe",
+                "price": "10000",
+                "availability": "40"
+            }
+        ]
+    },
+    {
+        "name": "Taj Yeshwantpur",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "9500",
+                "availability": "48"
+            },
+            {
+                "type": "Deluxe",
+                "price": "11500",
+                "availability": "35"
+            }
+        ]
+    },
+    {
+        "name": "Citrus Hotel",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4500",
+                "availability": "40"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5600",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "Ramanashree Richmond Hotel",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4800",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5900",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "Golden Fortune Hotel",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5200",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6350",
+                "availability": "32"
+            }
+        ]
+    },
+    {
+        "name": "Bangalore Gate Hotel and Conferences",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4800",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5900",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "Bloom Hotel - HAL Old Airport Road",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5100",
+                "availability": "46"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6250",
+                "availability": "35"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Swagath",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4500",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5600",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "Emerald Suite by Kallatte",
+        "Location": {
+            "City": "Bengaluru",
+            "State": "Karnataka",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5200",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6350",
+                "availability": "32"
+            }
+        ]
+    },
+    {
+        "name": "Empire Royal Hotel",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharastra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4800",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5900",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "The Taj Palace Mumbai",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "12000",
+                "availability": "50"
+            },
+            {
+                "type": "Deluxe",
+                "price": "15000",
+                "availability": "40"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Milan International",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4500",
+                "availability": "35"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5500",
+                "availability": "25"
+            }
+        ]
+    },
+    {
+        "name": "The Royal Orchid",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5500",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6800",
+                "availability": "35"
+            }
+        ]
+    },
+    {
+        "name": "The Lalit Mumbai",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "8000",
+                "availability": "50"
+            },
+            {
+                "type": "Deluxe",
+                "price": "10000",
+                "availability": "40"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Janata Residency",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "3500",
+                "availability": "30"
+            },
+            {
+                "type": "Deluxe",
+                "price": "4500",
+                "availability": "20"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Maharana Inn",
+        "Location": {
+            "City": "Mumbai",
+            "Area": "Chamber",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4200",
+                "availability": "38"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5300",
+                "availability": "27"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Solitaire",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4800",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5900",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Guest Inn Residency",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4200",
+                "availability": "38"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5300",
+                "availability": "27"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Apex International",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4800",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5900",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Parle International",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5500",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6800",
+                "availability": "35"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Bawa International",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "5000",
+                "availability": "40"
+            },
+            {
+                "type": "Deluxe",
+                "price": "6200",
+                "availability": "30"
+            }
+        ]
+    },
+    {
+        "name": "Trident Hotel, Bandra Kurla",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "11000",
+                "availability": "50"
+            },
+            {
+                "type": "Deluxe",
+                "price": "14000",
+                "availability": "40"
+            }
+        ]
+    },
+    {
+        "name": "T24 Retro",
+        "Rating": "4-star Boutique",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "7500",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "9000",
+                "availability": "35"
+            }
+        ]
+    },
+    {
+        "name": "Navotel Mumbai Juhu Beach",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "8500",
+                "availability": "48"
+            },
+            {
+                "type": "Deluxe",
+                "price": "10500",
+                "availability": "38"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Crawford Inn",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4200",
+                "availability": "38"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5300",
+                "availability": "27"
+            }
+        ]
+    },
+    {
+        "name": "Radisson Blu Mumbai International Airport",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "9500",
+                "availability": "50"
+            },
+            {
+                "type": "Deluxe",
+                "price": "11500",
+                "availability": "40"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Regal Plaza",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4800",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "5900",
+                "availability": "31"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Sea Princess",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "7500",
+                "availability": "45"
+            },
+            {
+                "type": "Deluxe",
+                "price": "9000",
+                "availability": "35"
+            }
+        ]
+    },
+    {
+        "name": "Hotel Residency",
+        "Location": {
+            "City": "Mumbai",
+            "State": "Maharashtra",
+            "Country": "India"
+        },
+        "Room": [
+            {
+                "type": "Standard",
+                "price": "4800",
+                "availability": "42"
+            },
+            {
+                "type": "Deluxe",
+                "price": "590",
+                "availability": "31"
+            }
+        ]
+    }
+                                          
+]
+
+
+  

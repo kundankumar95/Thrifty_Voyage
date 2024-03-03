@@ -1,0 +1,235 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@1000&display=swap');
+
+body{
+    background-image: url("assets/images/people-celebrating-new-year-s-eve-their-traditional-culture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: hsla(0, 0%, 0%, 0.386);
+    background-blend-mode: overlay;
+  }
+  #logo{
+    display: flex; 
+    height: 80px;
+    margin-top: 10px; 
+    margin-left: 600px;
+  }
+  #united{
+    letter-spacing: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 120px;
+    margin-left: 205px;
+  }
+  #culture{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;  
+  letter-spacing: 0px;
+  color: white;  
+  text-transform: uppercase;
+  margin-top: -10px;
+  margin-left: 200px;
+  }
+#lorem{
+  width: 30%;
+  color: white;
+  margin-left: 205px;
+  margin-top: -40px;
+}
+.first-row{
+  display: flex;
+  margin-top: 30px;
+}
+#bang{
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 200px;
+  cursor: pointer;
+  
+}
+#del{
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+#ker{
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+#mum{
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+#hyd{height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+#banga{
+height: 300px;
+width: 75%;
+margin-left: 200px;
+margin-top: 100px;
+background-color: rgba(255, 255, 255, 0.603);
+border-radius: 20px;
+visibility: hidden;
+display: none;
+}
+#banga p{
+  color: rgb(0, 0, 0);
+font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 50px;
+font-family: 'Oswald', sans-serif;
+}
+#delh{
+  height: 300px;
+  width: 75%;
+  margin-left: 200px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.603);
+  border-radius: 20px;
+  visibility: hidden;
+  display: none;
+}
+#delh p{
+  color: rgb(0, 0, 0);
+font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 50px;
+font-family: 'Oswald', sans-serif;
+}
+#kere{height: 300px;
+  width: 75%;
+  margin-left: 200px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.603);
+  border-radius: 20px;
+  visibility: hidden;
+  display: none;
+}
+#kere p{
+  color: rgb(0, 0, 0);
+font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 50px;
+font-family: 'Oswald', sans-serif;
+}
+#mumb{
+  height: 300px;
+  width: 75%;
+  margin-left: 200px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.603);
+  border-radius: 20px;
+  visibility: hidden;
+  display: none;
+}
+#mumb p{
+  color: rgb(0, 0, 0);
+font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 50px;
+font-family: 'Oswald', sans-serif;
+}
+#hyde{
+  height: 300px;
+  width: 75%;
+  margin-left: 200px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.603);
+  border-radius: 20px;
+  visibility: hidden;
+  display: none;
+}
+#hyde p{
+  color: rgb(0, 0, 0);
+font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 50px;
+font-family: 'Oswald', sans-serif;
+}
+.second-row{
+  display: flex;
+  margin-top: -50px;
+  padding-left: 240px;
+}
+#a{
+color: white;
+font-size: 20px;
+}
+#b{
+  color: white;
+font-size: 20px;
+margin-left: 150px; 
+}
+#c{
+  color: white;
+font-size: 20px;
+margin-left: 200px;
+}
+#d{
+  color: white;
+font-size: 20px;
+margin-left: 160px;
+}
+#e{
+  color: white;
+  font-size: 20px;
+  margin-left: 140px;
+}
+.footer{
+  height: 250px;
+  background-color: #001921;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color:white;
+  margin-bottom: -20px;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 30px;
+
+}
+#footer{
+  font-family: 'Nova Square', sans-serif;
+  font-size: 30px;
+}
+#copy{
+  margin-top: 10px;
+  font-family: 'popins', sans-serif;
+}
+#privacy{
+  margin-top: 20px;
+  font-family: 'popins', sans-serif;
+  font-size: 15px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  background: linear-gradient(transparent,#eb6d13);
+  border-radius: 5px;
+}

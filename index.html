@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrifty Voyage - Travel agancy</title>
+  <link rel="shortcut icon" href="#" type="#">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    
+  
+    <!-- <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/d3288ea8-4946-4e99-b432-169e337b00b8/webchat/config.js"defer></script>  -->
+</head>
+
+<body>  
+<div class="heroo">
+   <video autoplay loop muted plays-inline class="back-video">
+  <source src="assets/images/production_id_5127761 (2160p).mp4"></video> 
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>                                                                                                
+
+    <div class="header-top">
+      <div class="container">
+
+        <!-- <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+9102XXXXXXX</p>
+          </div>
+
+        </a> -->
+       
+        <div id="signin"> <button onmousedown="gethidden()" id="close">Close</button>
+          
+          <form action="" id="siginform">           
+            <input type="email" required placeholder="enter your email">
+            <input type="password" required placeholder="enter your password">
+        </form>
+        <h2 id="textttt">LOGIN&nbsp;TO&nbsp;THRIFTY&nbsp;VOYAGE</h2>
+        <button id="in">SIGN IN</button>
+      </div>
+        <div id="signup"> <button onmousedown="gethidden()"id="close">Close</button>                        
+          <form action="" id="signupform">           
+            <input type="email" required placeholder="enter your email">
+            <input type="password" required placeholder="enter your password">
+        </form>
+        <h2 id="texttttt">CREATE&nbsp;A&nbsp;NEW&nbsp;ACCOUNT</h2>
+        <button id="up">SIGN UP</button>  
+                
+        </div>       
+
+        
+
+        <a href="#" id="logo">
+          <img src="assets/images/logowhiteee.png" alt="Tourly logo"
+            style="display: flex; height: 80px;margin-top: -20px; margin-left: 450px; ">
+        </a>
+
+        <!-- <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div> -->
+
+      </div>
+    </div>
+    
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <!-- <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button> -->
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#logo" style="text-decoration: none" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#abouttext" class="navbar-link" data-nav-link>about us</a>
+            </li>         
+
+            <li>
+              <a href="#ourgoal" class="navbar-link" data-nav-link>our goals</a>
+            </li>
+            <li>
+              <a href="#vr" class="navbar-link" data-nav-link>vr view</a>
+            </li>
+
+            <li>
+              <a href="#booktour" class="navbar-link" data-nav-link>booking</a>
+            </li>
+            <li>
+              <a href="#explore" class="navbar-link" data-nav-link>explore</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+        <button class="btn btn-primary" onclick="openForm1()" onmousedown="getvisible1()" >Sign in</button>
+        
+        <button class="btn btn-primary" onclick="openForm2()" onmousedown="getvisible2()" >Sign up</button>
+
+      </div>
+    </div>
+
+  </header>
+
+  
+  <main>
+    <article>
+
+
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title" > Enchanting Wanderlust</h2>
+
+          <p class="hero-text">
+            Lost luggage? Found adventure! Embrace the chaos of a globetrotter's life.Beyond booking tours, we envision a future where travel fosters global understanding, breaks down cultural barriers, and inspires responsible stewardship of our planet. 
+          </p>
+         <a href="#abouttext">
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button></a>
+
+            <a href="#booktour"><button class="btn btn-secondary">Book now</button></a>
+          </div>
+
+        </div>
+      </section>
+      <section id="about">
+
+        <body>
+          <p id="abouttext" style="margin-top:100px ;">ABOUT US</p>
+           <!-- <video autoplay loop muted plays-inline class="back-video">
+            <source src="assets/images/pexels-jean-van-der-meulen-11254215 (2160p).mp4" ></video>  -->
+          <!-- <img src="assets/images/hallstatt-3609863_640.jpg" alt="" srcset=""
+            style="height: 450px; width: 85%;  margin-top:100px; margin-left: 120px;"> -->
+          <div id="box1"><br>
+            <p>CUSTOMIZE PACKAGE</p>
+            <div id="box2"></div>
+            <a href="#booktour">
+            <button id="learnmore">LEARN MORE</button></a>
+          </div>
+          <p id="text2">Our speciality</p>
+          <p id="text1">We give customize plans and <br>plan your Holidays, within your <br>Budget plans.<br><br>We do
+            book, your cabs so you <br>reach your destination on time.</p>
+          <p style="margin-top: 100px;"></p>
+          <div style="height: 300px;width: 800px;color: white;margin-left: 600px; margin-top: -300px;">
+            <p>We're Thrifty Voyage, and we believe travel should be an adventure. We take you off the beaten path, connect you with real people, and show you the world in a way you never thought possible. Our small group tours are led by passionate and experienced guides, and we're committed to responsible tourism that benefits the communities we visit.With Trfity Voyage, the world is your oyster. So, don't just dream it, explore it.Visit our website today and let's craft your perfect journey, together. Remember, Trfity Voyage is more than just a travel website; it's your key to unlocking a world of endless possibilities.
+              Growing up, travel wasn't just a vacation, it was a transformative education. Witnessing the vibrant markets of Morocco instilled a passion for cultural immersion, while hiking through the Patagonian wilderness ignited a love for responsible ecotourism. We aim to share this transformative power of travel with everyone we connect.
+</p>
+          </div>
+          <p id="ourgoal" style="margin-top:300px ;">OUR GOAL</p>
+          <div
+            style="width: 85%; color:white; align-items: center; text-align: center; font-size: 20px; margin-left: 100px; margin-top: 50px;">
+            <p>Our goal is to save you from your boring weekends, and give you the perfect outing plans with
+              friends/family/spouses or anybody you want to travel with. Within your budget and number of days</p>
+          </div>
+          <div style="width: 40%; color: white; margin-top: 150px;margin-left: 150px;">
+            <p>Take our customizing plan, to take a small break from work and enjoy you weekends. Take our cabs for
+              never missing those flights or trains. Or just simply click and book your own destination and travel free
+              around the world. <br><br>
+              We will curate immersive travel itineraries that challenge perspectives and nurture genuine connections.We will invest in sustainable tourism initiatives that minimize our environmental impact and support local communities.We will cultivate a culture of inclusivity and celebrate the diversity of travelers and destinations.We will leverage technology to provide seamless travel experiences and foster communication between travelers and locals.
+              We will continuously learn and adapt, striving to be a responsible and innovative leader in the travel industry.</p>
+          </div>
+          <img src="assets/images/packege-2.jpg" alt="" srcset=""
+            style="margin-left: 900px; margin-top: -310px; border-radius: 10px; box-shadow:  4px 2px 12px #000000;">
+          <img src="assets/images/last.png" alt="" srcset=""
+            style="height: 280px;width: 400px; border-radius:10px; margin-top: 255px; margin-left: 150px; box-shadow: 4px 2px 12px #000000;">
+          <div style="width: 40%; color: white; margin-top: -300px;margin-left: 662px;">
+            <p>Take our customizing plan, to take a small break from work and enjoy you weekends. Take our cabs for
+              never missing those flights or trains. Or just simply click and book your own destination and travel free
+              around the world. <br><br>
+              At Trfity Voyage, we're about much more than simply booking travel packages. We're on a mission to transform the way people experience the world, one handcrafted adventure at a time. Our goals are ambitious, but they're driven by a deep passion for travel and a genuine desire to make it accessible, meaningful, and responsible for everyone.</p>
+          </div>
+          <p id="vr">SOME POPULAR VR VIEWS TO MAKE YOU DIVE INTO THE WORLD OF VIRTUAL REALITY </p>
+          <div class="first-row">
+            <a href="https://www.p4panorama.com/gallery-item/golkonda-fort-hyderabad-india/"><img
+                src="assets/images/golkonda.jpeg" id="Golgonda"></a>
+            <a href="https://www.p4panorama.com/gallery-item/lotus-temple-new-delhi-india/"><img
+                src="assets/images/lotus.jpeg" id="Lotus"></a>
+            <a href="https://www.p4panorama.com/gallery-item/edakkal-caves-kerala-india/"><img
+                src="assets/images/eddakal.jpeg" id="Eddakal"></a>
+          </div>
+          <div class="first-rows">
+            <p id="a">GOLCONDA FORT <br> HYDERABAD</p>
+            <p id="b">LOTUS TEMPLE <br> DELHI</p>
+            <p id="c">EDDAKAL CAVES <br> KERELA</p>
+          </div>
+          <div class="first-row">
+            <a href="https://www.p4panorama.com/gallery-item/india-gate-gigapixel-image/"><img
+                src="assets/images/INDIAGATE.jpeg" id="Golgonda"></a>
+            <a href="https://www.p4panorama.com/gallery-item/wonderla-amusement-park-bangalore/"><img
+                src="assets/images/wonderla.jpeg" id="Lotus"></a>
+            <a href="https://www.p4panorama.com/gallery-item/planetarium-kozhikode-kerala/"><img
+                src="assets/images/regional.jpeg" id="Eddakal"></a>
+          </div>
+          <div class="first-rows">
+            <p id="d">INDIA GATE <br> MUMBAI</p>
+            <p id="e">WONDERLA AMUSEMENT PARK <br> BANGALORRE</p>
+            <p id="f">REGIONAL SCIENCE CENTRE <br> KERELA</p>
+          </div>
+          <p id="booktour">BOOK A TOUR WITH OUR LATEST BUDGET FRIENDLY TOOLS </p>
+
+          <div id="budgettool">
+            <form name="booking-form" action="/calculator">
+              <input type="text" id="bdgt" name="bdgt" placeholder="Enter your budget" >
+              <select name="" id="" style="height: 30px; width: 100px; margin-top: 10px;justify-content: center;text-align: center; background-color:rgba(255, 255, 255, 0.125); color: rgb(0, 0, 0); border-radius: 5px;" onchange="currencyChange(this.value);">
+                <option value="INR" style="background-color:rgb(255, 253, 253);">INR</option>
+                <option value="USD" style="background-color:rgb(255, 255, 255);">USD</option>
+                <option value="EUR" style="background-color:rgb(255, 255, 255);">EUR</option>
+              </select>
+              <input type="text" id="cl" name="cl" placeholder="Enter your boarding location">
+              <input type="text" id="num" name="num" placeholder="How many of you are going?">
+              <input type="text" id="dys" name="dys" placeholder="How many days are you planning for?">
+              <input type="text"id="room" name="room" placeholder="How many rooms do you need?">
+              <p style="margin-left: -6px; margin-top: 30px; color: white; display: block;font-weight: lighter;">Choose
+                your destination from here</p>
+              <select name="" id="dropdown" onmousedown="this.value='';" onchange="destination(this.value);">
+                <option value="golconda">Golconda</option>
+                <option value="lotusTemple">Lotus Temple</option>
+                <option value="edakkalCaves">Edakkal Caves</option>
+                <option value="indiaGate">India Gate</option>
+                <option value="wonderla">Wonderla Aamusement Park</option>
+                <option value="scienceCentre">Regional Science Centre</option>
+              </select>
+
+              <!-- <input type="date" id="date" name="mobile" placeholder="Select your date" class="center"
+                onfocus="(this.type='date')" onblur="(this.type='text')" style="margin-top: -25px;"> -->
+              <!-- <a href="#"> -->
+                <input  value="Submit" id="submit" name="submit" onmousedown="onSubmission();false"
+                style="display: block; text-align: center;">
+              <!-- </a> -->
+              <div id="result"></div>
+            </form>
+
+          </div>
+          <div id="output1" style="display: none;">
+            <h1 style="text-align: center; color: white; font-size: 30px; padding-top: 50px; " >Your Journey plan by Train !</h1>
+            <p id="mode1"></p> <button id="mode1b1" style="margin-top: -29px;margin-left:209px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);" onmousedown="irctc()">HERE</button><br><br>
+            <p id="hotel1"></p><button id="mode1b2" style="margin-top: -29px;margin-left:430px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);"onmousedown="hotelgo()">HERE</button><br><br>
+            <p id="reserved1"></p>
+          </div>
+
+          <div id="output2" style="display: none;">
+            <h1 style="text-align: center; color: white; font-size: 30px; padding-top: 50px;">Your Journey plan by Flight !</h1>
+            <p id="mode2"></p> <button id="mode2b1" style="margin-top: -29px;margin-left:270px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);"onmousedown="easytrip()">HERE</button><br><br>
+            <p id="hotel2"></p><button id="mode2b2" style="margin-top: -29px;margin-left:402px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);"onmousedown="hotelgo()">HERE</button><br><br>
+            <p id="reserved2"></p><br>
+          </div>
+          
+          <div id="output3" style="display: none;">
+            <h1 style="text-align: center; color: white; font-size: 30px; padding-top: 50px;">Your Multimodal Journey plan!</h1> 
+            <p id="mode2"></p> <button id="mode2b1" style="margin-top: -29px;margin-left:270px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);"onmousedown="easytrip()">HERE</button><br><br>
+            <p id="hotel2"></p><button id="mode2b2" style="margin-top: -29px;margin-left:402px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);"onmousedown="hotelgo()">HERE</button><br><br>
+            <p id="reserved2"></p><br>
+                <!-- Display results here -->
+                <p>Minimum cost of traveling: {{ travel_info.minimum_price }}</p>
+                <p>Price per day for hotel purpose: {{ travel_info.price_per_day }}</p>
+                <p>Hotels below the price: {{ travel_info.hotels }}</p>
+            {% endif %}
+            
+        </div>
+        
+        
+          
+          <!-- <div id="orange"></div>
+              <div style="color: white;margin-top: -259px; margin-left: 180px; "><p>Providing some crazy travel plans withi your Budget!!</p></div>
+              <form>
+                <input type="text" name="budget1" placeholder="Enter Your Budget" id="budget" required>
+                <input type="text" name="no. of days"  placeholder="Number of days" id="days" required>
+                <input type="text" name="no. of persons1" placeholder="Number of persons" id="persons" required>
+                <input type="text" name="location1"placeholder="Enter your location" id="location" required>
+                <button style="margin-left: 350px; margin-top: 15px; background-color: rgba(255, 255, 255, 0.447); border-radius: 5px; width: 100px;" onclick="myFunction1()">Submit</button>
+              </form>
+              <div id="blue"></div>
+              <div style="color: white;margin-top: -259px; margin-left: 850px; font-size: 30px; font-weight:bold ;"><p>BOOK YOUR CABS!</p></div>
+              <form id="form2" >
+                <input type="date" name="budget2" placeholder="Enter Your Budget" id="budget" required>
+                <input type="time"  placeholder="number of persons2" id="persons2" required>
+                <input type="text"name="location2" placeholder="Enter your location" id="location" required>
+                <button style="margin-left: 350px; margin-top: 15px; background-color: rgba(255, 255, 255, 0.447); border-radius: 5px; width: 100px;"onclick="myFunction2()">Submit</button>
+              </form>
+              <p style="color: white; font-size: 40px; font-weight: bold; margin-top: -729px; margin-left: 750px; font-family:var(--ff-poppins);">CUSTOMIZE YOUR <br>TRIPS WITH <br> BUDGET MAKER TOOL!</p>
+              <img src="assets/images/gallery-4.jpg" alt="" srcset="" style="margin-left: 150px; margin-top: 280px; border-radius: 10px;"> -->
+          <p id="explore" style="margin-top:200px ;">EXPLORE</p>
+          <pre id="know"> EVERYTHING YOU NEED TO KNOW BEFORE VISITING </pre>
+          <pre id="know2"> LOREM IPSUM</pre>
+          <a href="#booktour1"><img src="assets/images/bed.jpeg" alt="" srcset=""
+            style="width: 300px; height: 200px; margin-left: 1000px;margin-top: 100px; border-radius: 10px 10px 0px 0px ;display: flex; cursor: pointer;"></a>
+          <div
+            style="width: 300px;height: 30px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:1000px; text-align: center;align-items: center; cursor: pointer;">
+            HOTELS</div>
+          <div style="width: 50%; color: white; margin-left: 150px;margin-top: -200px;">
+            <p>Finding Your Perfect Home Away From Home with Trfity Voyage
+              Trfity Voyage isn't just about crafting your ideal itinerary; we also want to ensure you have a comfortable and memorable stay at every destination. That's why we offer a curated selection of hotels and accommodations to suit every budget and travel style.</p>
+          </div>
+          <a href="culture.html"><img src="assets/images/dance.jpeg" alt="" srcset=""
+            style="width: 300px; height: 200px; margin-left: 150px;margin-top: 200px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;"></a>
+          <div
+            style="width: 300px;height: 30px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:150px; text-align: center;align-items: center;cursor: pointer; ">
+            CULTURE</div>
+          <div style="width: 50%; color: white; margin-left: 600px;margin-top: -200px;">
+            <p>India, a land of vibrant colors, ancient traditions, and breathtaking landscapes, boasts a culture as diverse and rich as its history. Here's a glimpse into some of the fascinating aspects of Indian culture
+              Spiritual Tapestry: India is a cradle of diverse faiths, with Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism coexisting harmoniously. From the majestic Hindu temples of Khajuraho to the serene Buddhist monasteries of Ladakh, each faith adds a unique thread to the cultural tapestry.</p>
+          </div>
+          <a href="weather.html"><img src="assets/images/weather.png" alt="" srcset=""
+            style="width: 300px; height: 200px; margin-left: 1000px;margin-top: 200px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;"></a>
+          <div
+            style="width: 300px;height: 30px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:1000px; text-align: center;align-items: center;cursor: pointer; ">
+            WEATHER</div>
+          <div style="width: 50%; color: white; margin-left: 150px;margin-top: -200px;">
+            <p> The weather in India is as diverse as its landscapes and cultures, with distinct variations across the regions and throughout the year. Here's a glimpse into the different climatic zones you can expect.
+              Himalayan Range The majestic Himalayas experience cool to freezing temperatures all year round, with snowfall increasing during winter.</p>
+          </div>
+          <!-- <a href="currency.html"><img src="assets/images/cyrpto-coin-deposited-phone-illustration-design.jpg" alt="" srcset=""
+            style="width: 300px; height: 200px; margin-left: 150px;margin-top: 200px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;"></a>
+          <div
+            style="width: 300px;height: 30px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:150px; text-align: center;align-items: center;cursor: pointer; ">
+            CURRENCY CONVERTER</div>
+          <div style="width: 50%; color: white; margin-left: 600px;margin-top: -200px;">
+            <p>Explore the World Without Currency Worries
+              Planning an international trip is exciting, but navigating foreign currencies can add stress. That's where our user-friendly currency converter comes in!</p>
+          </div> -->
+           <p id="booktour1" style="margin-top:300px; margin-left: 220px;">EXPLORE INDIA PACKAGES</p>
+          <div id="package">
+            <pre id="font">
+
+
+                 <b><u>List of India Holiday</u>       </b>        <u><b>PackagesNo. of days </b></u>                    <u><b>Price*</b></u>
+
+                  Simply Kerala                              6 Days / 5 Nights                    Rs. 25,999
+
+                  Simply Andaman                       6 Days / 5 Nights                    Rs. 27,999
+
+                  Super Saver Kashmir                 6 Days / 5 Nights                    Rs. 22,999
+
+                  Inspirational Himachal             6 Days / 5 Nights                    Rs. 23,999
+                </pre>
+          </div>
+          <img src="assets/images/pic(1).png" alt="" srcset=""
+            style="width: 400px; height: 250px; margin-left: 150px;margin-top: 200px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;">
+          <div
+            style="width: 400px;height: 100px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:150px; text-align: center;align-items: center;cursor: pointer;font-weight: bold;">
+            LUCKNOW <br>packages starting @xxxxx <a href="#"><button id="booknow">Book Now</button></a></div>
+          </pre>
+          </div>
+          <img src="assets/images/pic(2).png" alt="" srcset=""
+            style="width: 400px; height: 250px; margin-left: 975px;margin-top: -350px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;">
+          <div
+            style="width: 400px;height: 100px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:975px; text-align: center;align-items: center;cursor: pointer;font-weight: bold;">
+            KOLKATA <br>packages starting @xxxxx <a href=""><button id="booknow">Book Now</button></a></div>
+          <img src="assets/images/pic(3).png" alt="" srcset=""
+            style="width: 400px; height: 250px; margin-left: 150px;margin-top: 100px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;">
+          <div
+            style="width: 400px;height: 100px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:150px; text-align: center;align-items: center;cursor: pointer;font-weight: bold;">
+            DELHI <br>packages starting @xxxxx <a href=""><button id="booknow">Book Now</button></a></div>
+          </pre>
+          </div>
+          <img src="assets/images/pic(4).png" alt="" srcset=""
+            style="width: 400px; height: 250px; margin-left: 975px;margin-top: -350px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;">
+          <div
+            style="width: 400px;height: 100px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:975px; text-align: center;align-items: center;cursor: pointer;font-weight: bold;">
+            KERELA <br>packages starting @xxxxx <a href=""><button id="booknow">Book Now</button></a></div>
+          <img src="assets/images/pic(5).png" alt="" srcset=""
+            style="width: 400px; height: 250px; margin-left: 150px;margin-top: 100px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;">
+          <div
+            style="width: 400px;height: 100px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:150px; text-align: center;align-items: center;cursor: pointer;font-weight: bold;">
+            SHIMLA<br>packages starting @xxxxx<a href=""><button id="booknow">Book Now</button></a></div>
+          </pre>
+          </div>
+          <img src="assets/images/pic(6).png" alt="" srcset=""
+            style="width: 400px; height: 250px; margin-left: 975px;margin-top: -350px; border-radius: 10px 10px 0px 0px ;display: flex;cursor: pointer;">
+          <div
+            style="width: 400px;height: 100px; background-color: rgba(255, 255, 255, 0.389);border-radius:0px 0px 10px 10px;margin-left:975px; text-align: center;align-items: center;cursor: pointer;font-weight: bold;">
+            NEPAL <br>packages starting @xxxxx <a href=""><button id="booknow">Book Now</button></a></div>
+            <p id="choose" style="margin-top:300px ;">WHY CHOOSE US</p>
+            <div class="pic">
+            <img src="assets/images/girl-scout-with-backpack-cap-white-background-3d-rendering-removebg-preview.png" id="aa">
+            <img src="assets/images/young-man-cartoon-character-with-phone-PhotoRoom.png-PhotoRoom.png" id="bb">
+            <img src="assets/images/pink-piggy-banks-symbolize-financial-success-security-generated-by-ai-removebg-preview.png" id="cc">
+          </div>
+          <div class="texts">
+            <p>Guided Tours</p>
+            <p>User Friendly</p>
+            <p id="xx">Budget Friendly</p>
+          </div>
+          <div class="third">
+            <pre id="aaa">Lorem ipsum dolor sit amet 
+adipisicing elit.</pre>
+            <pre id=bbb>Lorem ipsum dolor sit amet, 
+ adipisicing elit.</pre>
+            <pre id="ccc">Lorem ipsum dolor sit amet, 
+ adipisicing elit.</pre>
+          </div>
+
+          <p id="contact" style="margin-top:300px ;">REACH US</p>
+          <div id="container1">
+            <form name="contact-form">
+              <input type="text" id="fname" name="fname" placeholder="First Name">
+              <input type="text" id="lname" name="lname" placeholder="Last Name">
+              <input type="email" id="email" name="email" placeholder="Email">
+              <input type="number" id="mobile" name="mobile" placeholder="Mobile">
+              <h4>Type Your Message Here...</h4>
+              <textarea name="msg"></textarea>
+              <input type="submit" value="Submit" id="submit" name="submit">
+            </form>
+          </div>
+      </section>
+      <script src="./assets/js/budgetCalculator.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <footer>
+        <div class="footer">
+          <pre id="footer">Thrift Voyage</pre>
+          <pre id="copy">copyright &copy 2023, ThriftVaoyae Inc
+
+ Designed by <b>ELITESQUAD</b>
+              </pre>
+          <pre id="privacy"><u>Privacy policy</u>       |       <u>FAQs</u>      |         <u>Terms of use</u></pre>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Thrifty",
+      "botConversationDescription": "This AI bot is made to help you!",
+      "botId": "d3288ea8-4946-4e99-b432-169e337b00b8",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "d3288ea8-4946-4e99-b432-169e337b00b8",
+      "webhookId": "20d03a25-5c8f-4dd7-afcb-7759679282b4",
+      "lazySocket": true,
+      "themeName": "prism",
+      "botName": "Thrifty",
+      "avatarUrl": "https://www.shutterstock.com/image-vector/chat-bot-ai-customer-service-600nw-1713744196.jpg",
+      "frontendVersion": "v1",
+      "enableConversationDeletion": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
+  </body>
+</html>
+

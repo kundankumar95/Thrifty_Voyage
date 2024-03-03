@@ -1,0 +1,353 @@
+           
+ 
+ <h1 style="text-align: center; color: white; font-size: 30px; padding-top: 50px;">Your Journey plan by Flight !</h1>
+ 
+  <h1 style="text-align: center; color: white; font-size: 30px; padding-top: 50px;">Your Journey plan by Flight !</h1>
+ 
+{% if travel_info %}
+ 
+{% endif %}
+ 
+</py-script>
+ 
+ <py-script>
+ 
+{% if travel_info %}
+                <!-- Display results here -->
+                <p>Minimum cost of traveling: {{ travel_info.minimum_price }}</p>
+                <p>Price per day for hotel purpose: {{ travel_info.price_per_day }}</p>
+                <p>Hotels below the price: {{ travel_info.hotels }}</p>
+            {% endif %}
+ 
+<div id="output3" style="display: none;">
+            <h1 style="text-align: center; color: white; font-size: 30px; padding-top: 50px;">Your Multimodal Journey plan!</h1>
+            <py-script>
+              {% if travel_info %}
+                <!-- Display results here -->
+                <p>Minimum cost of traveling: {{ travel_info.minimum_price }}</p>
+                <p>Price per day for hotel purpose: {{ travel_info.price_per_day }}</p>
+                <p>Hotels below the price: {{ travel_info.hotels }}</p>
+            {% endif %}
+            </py-script>
+            
+        </div>
+ 
+{% if travel_info %}
+                <!-- Display results here -->
+                <p>Minimum cost of traveling: {{ travel_info.minimum_price }}</p>
+                <p>Price per day for hotel purpose: {{ travel_info.price_per_day }}</p>
+                <p>Hotels below the price: {{ travel_info.hotels }}</p>
+            {% endif %}
+ 
+<div id="output3" style="display: none;">
+            <h1 style="text-align: center; color: white; font-size: 30px; padding-top: 50px;">Your Multimodal Journey plan !</h1>
+            {% if travel_info %}
+        <!-- Display results here -->
+            <p>Minimum cost of traveling: {{ travel_info.minimum_price }}</p>
+            <p>Price per day for hotel purpose: {{ travel_info.price_per_day }}</p>
+            <p>Hotels below the price: {{ travel_info.hotels }}</p>
+            {% endif %}
+
+
+          </div>
+ 
+from flask import Flask, render_template, request
+from demo import calculate_travel_information
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        # Get form data
+        origin_location = request.form['origin_location']
+        destination_location = request.form['destination_location']
+        break_location = request.form['break_location']
+        budget = int(request.form['budget'])
+        expenses = int(request.form['expenses'])
+        person = int(request.form['person'])
+        days = int(request.form['days'])
+
+        # Calculate travel information
+        travel_info = calculate_travel_information(origin_location, destination_location, break_location, budget, expenses, person, days)
+
+        return render_template('index.html', travel_info=travel_info)
+
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+ 
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        # Get form data
+        origin_location = request.form['origin_location']
+        destination_location = request.form['destination_location']
+        break_location = request.form['break_location']
+        budget = int(request.form['budget'])
+        expenses = int(request.form['expenses'])
+        person = int(request.form['person'])
+        days = int(request.form['days'])
+
+        # Calculate travel information
+        travel_info = calculate_travel_information(origin_location, destination_location, break_location, budget, expenses, person, days)
+
+        print("Travel Info:", travel_info)  # Add this line
+
+        return render_template('index.html', travel_info=travel_info)
+
+    return render_template('index.html')
+
+ 
+from flask import Flask, render_template, request
+from calculation import calculate_travel_information
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        # Get form data
+        origin_location = request.form['origin_location']
+        destination_location = request.form['destination_location']
+        break_location = request.form['break_location']
+        budget = int(request.form['budget'])
+        expenses = int(request.form['expenses'])
+        person = int(request.form['person'])
+        days = int(request.form['days'])
+
+        # Calculate travel information
+        travel_info = calculate_travel_information(origin_location, destination_location, break_location, budget, expenses, person, days)
+
+        return render_template('index.html', travel_info=travel_info)
+
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+ 
+from flask import Flask, render_template, request
+from calculation import calculate_travel_information
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        # Get form data
+        origin_location = request.form['origin_location']
+        destination_location = request.form['destination_location']
+        break_location = request.form['break_location']
+        budget = int(request.form['budget'])
+        expenses = int(request.form['expenses'])
+        person = int(request.form['person'])
+        days = int(request.form['days'])
+
+        # Calculate travel information
+        travel_info = calculate_travel_information(origin_location, destination_location, break_location, budget, expenses, person, days)
+
+        return render_template('index.html', travel_info=travel_info)
+
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+ 
+
+
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+from geopy.geocoders import Nominatim
+from geopy.distance import geodesic
+from dataCollection import print_hotels_below_price_and_city
+origin_location = input("Enter the original location:")
+destination_location = input("Enter the destination:")
+break_location = input("Enter the breakpoint location:")
+
+geolocator = Nominatim(user_agent="distance_calculator")
+
+origin_coords = geolocator.geocode(origin_location)
+destination_coords = geolocator.geocode(destination_location)
+break_coords = geolocator.geocode(break_location)
+
+if origin_coords and destination_coords:
+
+    distance = geodesic((origin_coords.latitude, origin_coords.longitude),
+                       (destination_coords.latitude, destination_coords.longitude)).kilometers
+
+    distance_1 = geodesic((origin_coords.latitude, origin_coords.longitude),
+                       (break_coords.latitude, break_coords.longitude)).kilometers
+    distance_2 = geodesic((break_coords.latitude, break_coords.longitude),
+                       (destination_coords.latitude, destination_coords.longitude)).kilometers
+    
+
+ 
+    print(f"The distance between {origin_location} and {destination_location} is approximately {distance:.2f} kilometers.")
+    print(f"The distance between {origin_location} and {break_location} is approximately {distance_1:.2f} kilometers.")
+    print(f"The distance between {break_location} and {destination_location} is approximately {distance_2:.2f} kilometers.")
+    
+else:
+    print("Location not found. Please check the provided locations.")
+
+budget = int(input("Enter your total budget: "))
+person = int(input("Enter the number of people travelling: "))
+
+days = int(input("How many days do want?"))
+
+expenses = int(input("Enter the amount you want to spend for food and others:"))
+
+
+
+
+remaining_money = budget - expenses
+
+
+total_cost_of_train_tciket = ((0.5)*distance*person)
+total_updown_train = 2*total_cost_of_train_tciket
+
+total_cost_of_flight_tciket = 5*distance*person
+total_updown_flight = 2*total_cost_of_flight_tciket
+minimum = min(total_updown_train,total_updown_flight)
+total_cost_of_uptrain_downflight = 2*(total_cost_of_flight_tciket + total_cost_of_train_tciket)
+total_mini = min(minimum,total_cost_of_uptrain_downflight)
+
+total_cost_by_breaking_1 =2*((0.5)*distance_1*person + 5*distance_2*person)
+total_cost_by_breaking_2 =2*((5)*distance_1*person + 0.5*distance_2*person)
+
+minimum_breaking = min(total_cost_by_breaking_1,total_cost_by_breaking_2)
+if(total_cost_by_breaking_1 < total_cost_by_breaking_2):
+    print(f"you can user train from {origin_location} to {break_location} and flight from {break_location} to {destination_location}")
+else:
+    print(f"you can user flight from {origin_location} to {break_location} and train from {break_location} to {destination_location}")
+
+minimum_price = int(min(minimum_breaking,total_mini))
+print(f"Minimum cost of traveling: {minimum_price}")
+def calculate_time(case_value_for_time):
+    if case_value_for_time == 1:
+        time_taken_by_flight = distance/882.5
+        print(f"You can travel by flight in {time_taken_by_flight :.2f} hours")
+    else:
+        preference = input("Enter Your Preference:")
+        if preference.islower() == "flight":
+            time_taken_by_flight = distance/882.5
+            print(f"Time taken by flight {time_taken_by_flight :.2f} hours")
+        elif preference.islower() == "breakingjourney":
+            time_taken_by_flight_1 = distance_1/882.5
+            time_taken_by_train_1 = distance_2/160
+            time_taken_by_flight_2 = distance_2/882.5
+            time_taken_by_train_2 = distance_1/160
+            Total_time_taken_in_break_journey_1 = time_taken_by_flight_1 + time_taken_by_train_1
+            Total_time_taken_in_break_journey_2 = time_taken_by_flight_2 + time_taken_by_train_2
+            minimum_time_in_break_journey = min(Total_time_taken_in_break_journey_1,Total_time_taken_in_break_journey_2)
+            if Total_time_taken_in_break_journey_1 < Total_time_taken_in_break_journey_2:
+                print(f"Time taken by flight from {origin_location} to {break_location} and by train {break_location} to {destination_location} is {minimum_time_in_break_journey:.2f}")
+            else:
+                print(f"Time taken by train from {origin_location} to {break_location} and by flight {break_location} to {destination_location} is {minimum_time_in_break_journey:.}")
+
+        else:
+            time_taken_by_train = distance/160
+            print(f"time taken by train {time_taken_by_train :.2f} hours")
+
+
+
+case_value_for_time = int(input("Tell us how crucial arriving on time is for your trip(1.URGENT/2.ON TIME):"))
+calculate_time(case_value_for_time)
+
+
+def calculate_rest_amount(case_value):
+    if case_value == 1:
+        return remaining_money - total_cost_of_train_tciket
+    elif case_value == 2:
+        if remaining_money <= total_cost_of_flight_tciket:
+            print("You cant afford flight")
+            return calculate_rest_amount(3)
+    elif case_value == 3:
+        if remaining_money <= minimum_breaking:
+            print("you can't afford break journey")
+            return calculate_rest_amount(4)
+        else:
+            return remaining_money - minimum_price
+    else:
+        if remaining_money <= total_cost_of_uptrain_downflight:
+            print("You cant afford up by flight and down by train or vice versa)")
+            return calculate_rest_amount(1)
+        else:
+            return remaining_money - total_cost_of_uptrain_downflight
+case_value = int(input("Enter a number (1: Train, 2: Flight, 3:break_journey 4:upTrain & downFlight or vice-versa)"))
+
+rest_amount = calculate_rest_amount(case_value)
+
+price_per_day = rest_amount / days
+print(f"price per day for hotel purpose: {price_per_day}")
+print_hotels_below_price_and_city(destination_location, price_per_day)
+
+
+if __name__ == '_main_':
+    app.run(debug=True)
+ 
+def calculate_rest_amount(case_value):
+        if case_value == 1:
+            return remaining_money - total_cost_of_train_tciket
+        elif case_value == 2:
+            if remaining_money <= total_cost_of_flight_tciket:
+                print("You cant afford flight")
+                return calculate_rest_amount(3)
+        elif case_value == 3:
+            if remaining_money <= minimum_breaking:
+                print("you can't afford break journey")
+                return calculate_rest_amount(4)
+            else:
+                return remaining_money - minimum_price
+        else:
+            if remaining_money <= total_cost_of_uptrain_downflight:
+                print("You cant afford up by flight and down by train or vice versa)")
+                return calculate_rest_amount(1)
+            else:
+                return remaining_money - total_cost_of_uptrain_downflight
+    case_value = int(input("Enter a number (1: Train, 2: Flight, 3:break_journey 4:upTrain & downFlight or vice-versa)"))
+
+    rest_amount = calculate_rest_amount(case_value)
+ 
+ def calculate_rest_amount(case_value):
+        if case_value == 1:
+            return remaining_money - total_cost_of_train_tciket
+        elif case_value == 2:
+            if remaining_money <= total_cost_of_flight_tciket:
+                print("You cant afford flight")
+                return calculate_rest_amount(3)
+        elif case_value == 3:
+            if remaining_money <= minimum_breaking:
+                print("you can't afford break journey")
+                return calculate_rest_amount(4)
+            else:
+                return remaining_money - minimum_price
+        else:
+            if remaining_money <= total_cost_of_uptrain_downflight:
+                print("You cant afford up by flight and down by train or vice versa)")
+                return calculate_rest_amount(1)
+            else:
+                return remaining_money - total_cost_of_uptrain_downflight
+    case_value = int(input("Enter a number (1: Train, 2: Flight, 3:break_journey 4:upTrain & downFlight or vice-versa)"))
+
+    rest_amount = calculate_rest_amount(case_value)
+ 
+x, y=None)
+ 
+            <p id="mode2"></p> <button id="mode2b1" style="margin-top: -29px;margin-left:270px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);"onmousedown="easytrip()">HERE</button><br><br>
+            <p id="hotel2"></p><button id="mode2b2" style="margin-top: -29px;margin-left:402px; font-weight: bold; font-size: 20px;color: rgb(255, 153, 0);"onmousedown="hotelgo()">HERE</button><br><br>
+            <p id="reserved2"></p><br>
+ 
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        user_name = request.form['username']
+        greeting = f"Hello, {user_name}!"
+        return render_template('index.html', greeting=greeting)
+
+ 
